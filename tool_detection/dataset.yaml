@@ -1,0 +1,19 @@
+# dataset.yaml
+train: /localdata/szhoubx/med_video/dataset/CholecTrack20/tool_detection/train # train images (relative to 'data.yaml')
+val: /localdata/szhoubx/med_video/dataset/CholecTrack20/tool_detection/val    #  val images (relative to 'data.yaml')
+
+
+
+nc: 7
+
+names: [
+        'Grasper',           # 0
+        'Bipolar',           # 1
+        'Hook',              # 2
+        'Scissors',          # 3
+        'Clipper',           # 4
+        'Suction',           # 5
+        'Needle Pass',       # 6
+    ]
+
+

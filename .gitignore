@@ -1,0 +1,9 @@
+__pycache__
+.vscode
+*.pth
+*.png
+*.npz
+*.pt
+*.txt
+events*
+tool_detection/tool_detection
