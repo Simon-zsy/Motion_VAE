@@ -38,9 +38,9 @@ erasing: 0.4 # (float) probability of random erasing during classification train
 crop_fraction: 1 # (float) image crop fraction for classification (0.1-1), 1.0 means no crop, must be greater than 0.
 
 # Train settings -------------------------------------------------------------------------------------------------------
-epochs: 200 # (int) number of epochs to train for
+epochs: 100 # (int) number of epochs to train for
 time: # (float, optional) number of hours to train for, overrides epochs if supplied
-patience: 500 # (int) epochs to wait for no observable improvement for early stopping of training
+patience: 20 # (int) epochs to wait for no observable improvement for early stopping of training
 batch: 172 # (int) number of images per batch (-1 for AutoBatch)
 imgsz: 640 # (int | list) input images size as int for train and val modes, or list[h,w] for predict and export modes
 save: True # (bool) save train checkpoints and predict results

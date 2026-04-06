@@ -1,0 +1,3 @@
+[submodule "Surgical-SAM-2"]
+	path = Surgical-SAM-2
+	url = git@github.com:jinlab-imvr/Surgical-SAM-2.git
